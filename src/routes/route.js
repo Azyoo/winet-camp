@@ -1,9 +1,14 @@
 
 const router = [
     {
-        title:"员工管理",
+        title:"主页",
         icon:'index',
         key:'/index'
+    },
+    {
+        title:"员工管理",
+        icon:'index',
+        key:'/index/user'
     },
     {
         title:'产品管理',
