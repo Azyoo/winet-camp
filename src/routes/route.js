@@ -8,10 +8,10 @@ const router = [
     {
         title:'产品管理',
         icon:"laptop",
-        key:'/index/products',
+        key:'/index/pros',
         child:[
-            {key:'/index/product',title:'产品列表',icon:''},
-            {key:'/index/prolist',title:'项目列表',icon:''},
+            {key:'/index/pros/list',title:'产品列表',icon:''},
+            {key:'/index/pros/items',title:'项目列表',icon:''},
             
         ]
     },

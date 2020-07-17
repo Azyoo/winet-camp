@@ -4,7 +4,7 @@ import { withRouter } from 'react-router-dom';
 import { Form, Input, Button } from 'antd';
 import { UserOutlined, UnlockOutlined } from '@ant-design/icons';
 // API
-import { login, getSalepoint } from '../../api/account';
+//import { login, getSalepoint } from '../../api/account';
 // 方法
 import { setToken } from '../../utils/session';
 //const { Option } = Select;

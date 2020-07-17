@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 // layout组件
 import LayoutAside from './components/aside';
 import LayoutHeader from './components/header';
-import ContainerMain from '../../components/AsideMenu/containerMain';
+import ContainerMain from '../../components/containerMain/containerMain';
 //css
 import "./layout.scss";
 // Antd

@@ -1,13 +1,13 @@
 import React ,{Component}from 'react';
-class User extends Component{
+class Products extends Component{
     constructor(props){
         super(props);
         this.state={};
     }
     render(){
         return(
-            <div>员工管理</div>
+            <div>产品管理</div>
         )
     }
 }
-export default User;
+export default Products;

@@ -19,11 +19,11 @@ export default class AsideMenu extends Component {
     renderMenu = ({ title, key }) => {
         return (
             <Menu.Item key={key} icon={<UserOutlined />}>
-                {title}
+                <Link to={key} ><span>{title}</span></Link>
             </Menu.Item>
         )
     }
-    //子级菜单处理
+    //子级菜单处理 
     renderSubMenu = ({ title, key, child }) => {
         return (
             <SubMenu key={key} icon={<UserOutlined />} title={title}>
@@ -45,7 +45,8 @@ export default class AsideMenu extends Component {
                     defaultOpenKeys={['sub1']}
                     style={{ height: '100%', borderRight: 0 }}
                     theme="dark"
-                >   {
+                >  
+                 {
                         Router && Router.map(firstItem => {
                             return firstItem.child && firstItem.child.length > 0 ? this.renderSubMenu(firstItem) : this.renderMenu(firstItem);
                         })

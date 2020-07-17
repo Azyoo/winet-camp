@@ -1,13 +1,13 @@
 import React ,{Component}from 'react';
-class User extends Component{
+
+export default class Pritems extends Component{
     constructor(props){
         super(props);
         this.state={};
     }
     render(){
         return(
-            <div>员工管理</div>
+            <div>项目列表</div>
         )
     }
 }
-export default User;

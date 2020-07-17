@@ -1,4 +1,4 @@
-const tokenAdmin = "adminToken";
+// const tokenAdmin = "adminToken";
 
 export function setToken(value){
     sessionStorage.setItem('adminToken',value)
